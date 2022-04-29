@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descueno¿tos</title>
+</head>
+<body>
+   +<header>
+       <h1>
+           segundo taller
+       </h1>
+       <p>segundo taller javascript</p>
+   </header>
+   <section>
+       <h2>Calcular precio con descuento</h2>
+       <form>
+           <label for="inputPre">Escribe el precio del producto</label>
+           <input id="inputPre" type="number"/>
+
+           <label for="cupones">Seleccione el Cupon: </label>
+           <select id="cupones">
+               <option>10%</option>
+               <option>20%</option>
+               <option>30%</option>
+               <option>40%</option>
+               <option>50%</option>
+               <option>60%</option>
+               <option>70%</option>
+               <option>80%</option>
+               <option>90%</option>
+
+           </select>
+
+           <button type="button" onclick="clickdeboton()">
+                Calcular el precio con descuento
+           </button>
+           <p id="resultado"></p>
+       </form>
+   </section>
+    <script src="./descuento.js"></script>
+</body>
+</html>
