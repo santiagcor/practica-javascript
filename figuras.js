@@ -21,6 +21,7 @@ function calcularpert(){
     let valor3=input3.value;
 
     let perimetro=perimetrot(valor1,valor2,valor3);
+
     alert(perimetro);
 }
 
@@ -31,6 +32,7 @@ function calcularareat(){
     let valor2=input2.value;
 
     let area=areat(valor1,valor2);
+
     alert(area);
 }
 
