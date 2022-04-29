@@ -33,6 +33,7 @@ function clickdeboton(){
         case "90%": calcularp=calcularcond(valor1,cupon1[8]);
         break;
     }
+    
     let resultado=document.getElementById("resultado");
     resultado.innerText = "el precio a pagar es de : $"+ calcularp;
 
